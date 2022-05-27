@@ -1,15 +1,12 @@
-body {
-  background: rgba(68, 68, 68, 0.62);
-}
-h4 {
-  position: absolute;
-  bottom: 20px;
-  left: 20px;
+*{
   margin: 0;
-  font-weight: 200;
-  opacity: 1;
-  font-family: sans-serif;
-  color: #fff;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrapper {
+  background: rgba(68, 68, 68, 0.62);
+  width: 100vw;
+  height: 100vh;
 }
 #loader {
   animation: animate 1.5s linear infinite;
